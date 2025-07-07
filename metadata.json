@@ -1,0 +1,16 @@
+{
+  "codecId": "563a",
+  "sourceUrl": "https://github.com/sept-s/tg563a-payload-decoder",
+  "vendorId": "1115",
+  "version": "1.0.0",
+  "main": "index.js",
+  "specVersion": "1.0.0",
+  "name": "tg563a-payload-decoder",
+  "description": "Codec for the smoke detector TG563A",
+  "codec": {
+    "encodeDownlink": true,
+    "decodeDownlink": true,
+    "examples": true,
+    "jsonSchemas": false
+  }
+}

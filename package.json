@@ -1,0 +1,23 @@
+{
+  "name": "tg563a-payload-decoder",
+  "version": "1.0.0",
+  "description": "LoRaWAN Payload Codec for Smoke Detector TG563A",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collectCoverage"
+  },
+  "keywords": [
+    "lorawan",
+    "codec",
+    "smoke",
+    "detector",
+    "TG563A",
+    "payload",
+    "decoder"
+  ],
+  "author": "Sept-S",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.0.4"
+  }
+}
