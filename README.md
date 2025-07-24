@@ -2,6 +2,11 @@
 
 This JavaScript codec decodes and encodes LoRaWAN payloads for the **TG563A Smoke Detector**. It supports uplink and downlink message parsing, making it suitable for integration with LoRaWAN platforms like **The Things Stack**, **ChirpStack**, and others.
 
+## 📖 Documentation
+
+The product documentation is available [here](docs/SE000304A_TG563A_Technical_Reference_Manual.pdf).
+
+
 ## 📦 Features
 
 - **Uplink Decoder**: Parses sensor data including smoke alarms, battery status, temperature, hardware diagnostics, serial number, production/installation dates, counters...
