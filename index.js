@@ -135,6 +135,10 @@ function encodeDownlink(input) {
     var bytes = [];
     var errors = [];
 
+    if (Object.prototype.toString.call(input.data) === '[object Object]') {
+        input.data =  [ input.data ]
+    }
+
     if (Object.prototype.toString.call(input.data) === '[object Array]') {
 
         for (var index = 0; index < input.data.length; index++) {

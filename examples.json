@@ -127,15 +127,29 @@
         "description": "an example of a downlink to change the TX period",
         "input": {
             "data": [
-                { 
-                    "command": "SET_TX_PERIOD", 
-                    "parameter": 5 
+                {
+                    "command": "SET_TX_PERIOD",
+                    "parameter": 5
                 }
             ]
         },
-        "output": { 
+        "output": {
             "fPort": 1,
-            "bytes": [5] 
+            "bytes": [5]
+        }
+    },
+    {
+        "type": "downlink-encode",
+        "description": "an example of a downlink to change the TX period (2)",
+        "input": {
+            "data": {
+                    "command": "SET_TX_PERIOD",
+                    "parameter": 5
+            }
+        },
+        "output": {
+            "fPort": 1,
+            "bytes": [5]
         }
     },
     {
